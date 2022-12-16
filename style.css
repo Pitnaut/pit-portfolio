@@ -1,0 +1,87 @@
+body {
+    background-color: #072121;
+    color: #ecefc8;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "inconsolata";
+}
+
+h2 {
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
+
+.navigation-items {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: "poppins";
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.navigation-items li {
+    border: 1px solid #ecefc8;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.name-and-work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#profile-photo {
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+.main-name {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: "poppins";
+    margin-right: 5%;
+}
+
+.main-name h1 {
+    font-size: 50px;
+}
+
+.main-name h2 {
+    text-decoration: none;
+}
+
+.projects ul {
+    font-size: 20px;
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.skills ul li {
+    border: 1px solid #ecefc8;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.language {
+    margin-top: 50px;
+    text-align: end;
+}
+
+
+
+
