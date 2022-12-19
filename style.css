@@ -29,16 +29,28 @@ p {
     border: 1px solid #ecefc8;
     padding: 0px 10px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+ .navigation-items li:hover {
+    border: 1px solid #072121;
+    color: #072121;
+    background-color: #ecefc8;
+    padding: 0px 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .name-and-work {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #profile-photo {
     width: 250px;
+    height: auto;
     border-radius: 50%;
     margin-left: 5%;
 }
@@ -46,21 +58,35 @@ p {
 .main-name {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: flex-start;
     font-family: "poppins";
     margin-right: 5%;
+    flex-wrap: wrap;
+    
 }
 
 .main-name h1 {
     font-size: 50px;
-}
+    margin-bottom: auto;
+    }
 
 .main-name h2 {
     text-decoration: none;
+    margin-top: auto;
 }
 
-.projects ul {
+.about-me p {
+    text-align: justify;
+}
+
+.projects-items li {
     font-size: 20px;
+    text-decoration: underline;
+}
+
+.projects-items li:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .skills ul {
@@ -69,6 +95,7 @@ p {
     font-size: 20px;
     justify-content: space-around;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .skills ul li {
@@ -77,10 +104,21 @@ p {
     border-radius: 10px;
 }
 
+.skills ul li:hover {
+    border: 1px solid #072121;
+    color:#072121;
+    background-color: #ecefc8;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
 .language {
     margin-top: 50px;
     text-align: end;
+    cursor: pointer;
 }
+
 
 
 
