@@ -1,55 +1,63 @@
+html {
+    font-size: 20px;
+}
+
 body {
     background-color: #072121;
     color: #ecefc8;
-    max-width: 900px;
+    max-width: 45rem;
     margin: 0 auto;
     font-family: "inconsolata";
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 1.75rem;
     text-decoration: underline;
 }
 
 p {
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .navigation-items {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-size: 30px;
+    font-size: 1.5rem;
     font-family: "poppins";
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 1rem
 }
 
 .navigation-items li {
-    border: 1px solid #ecefc8;
-    padding: 0px 10px;
-    border-radius: 10px;
+    border: 0.05rem solid #ecefc8;
+    padding: 0 1%;
+    border-radius: .5rem;
     cursor: pointer;
 }
 
  .navigation-items li:hover {
-    border: 1px solid #072121;
+    border: 0.05rem solid #072121;
     color: #072121;
     background-color: #ecefc8;
-    padding: 0px 10px;
-    border-radius: 10px;
+    padding: 0 1%;
+    border-radius: .5rem;
     cursor: pointer;
 }
 
 .name-and-work {
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #profile-photo {
-    width: 250px;
+    width: 12.5rem;
     height: auto;
     border-radius: 50%;
     margin-left: 5%;
@@ -61,12 +69,11 @@ p {
     align-items: flex-start;
     font-family: "poppins";
     margin-right: 5%;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
 
 .main-name h1 {
-    font-size: 50px;
+    font-size: 2.5rem;
     margin-bottom: auto;
     }
 
@@ -80,7 +87,7 @@ p {
 }
 
 .projects-items li {
-    font-size: 20px;
+    font-size: 1rem;
     text-decoration: underline;
 }
 
@@ -92,31 +99,34 @@ p {
 .skills ul {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 1rem;
     justify-content: space-around;
     list-style-type: none;
     flex-wrap: wrap;
+    gap: .5rem;
 }
 
 .skills ul li {
-    border: 1px solid #ecefc8;
-    padding: 5px 10px;
-    border-radius: 10px;
+    border: 0.05rem solid #ecefc8;
+    padding: 0.5% 1.5%;
+    border-radius: .5rem;
+    
 }
 
 .skills ul li:hover {
-    border: 1px solid #072121;
+    border: 0.05rem solid #072121;
     color:#072121;
     background-color: #ecefc8;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 0.5% 1.5%;
+    border-radius: .5rem;
 }
 
 .language {
-    margin-top: 50px;
+    margin-top: 5%;
     text-align: end;
     cursor: pointer;
+    
 }
 
 
