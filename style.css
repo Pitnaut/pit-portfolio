@@ -36,18 +36,28 @@ p {
     border: 0.05rem solid #ecefc8;
     padding: 0 2%;
     border-radius: .5rem;
-    cursor: pointer;
     white-space: nowrap;
 }
+
+.navigation-items li a{
+    text-decoration: none;
+    color: #ecefc8;
+}
+
 
  .navigation-items li:hover {
     border: 0.05rem solid #072121;
     color: #072121;
     background-color: #ecefc8;
-    padding: 0 1%;
+    padding: 0 2%;
     border-radius: .5rem;
     cursor: pointer;
 }
+
+.navigation-items li a:hover{
+    color:#072121;
+}
+
 
 .name-and-work {
     display: flex;
@@ -82,21 +92,21 @@ p {
     margin-top: auto;
 }
 
-.about-me p {
+#about-me p {
     text-align: justify;
 }
 
-.projects-items li {
+#projects-items li {
     font-size: 1rem;
     text-decoration: underline;
 }
 
-.projects-items li:hover {
+#projects-items li:hover {
     text-decoration: none;
     cursor: pointer;
 }
 
-.skills ul {
+#skills ul {
     display: flex;
     flex-direction: row;
     font-size: 1rem;
@@ -107,27 +117,17 @@ p {
     margin-right: 5%;  
 }
 
-.skills ul li {
+#skills ul li {
     border: 0.05rem solid #ecefc8;
     padding: 0.5% 1.5%;
     border-radius: .5rem;
     
 }
 
-.skills ul li:hover {
-    border: 0.05rem solid #072121;
-    color:#072121;
-    background-color: #ecefc8;
-    cursor: pointer;
-    padding: 0.5% 1.5%;
-    border-radius: .5rem;
-}
-
 .language p{
     margin-top: 5%;
     text-align: end;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 @media only screen and (max-width: 480px) {
