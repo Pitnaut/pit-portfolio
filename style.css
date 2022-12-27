@@ -18,8 +18,17 @@ h2 {
     text-decoration: underline;
 }
 
+h3 {
+    font-size: 1.25rem;
+}
+
 p {
     font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ecefc8;
 }
 
 .navigation-items {
@@ -58,7 +67,6 @@ p {
     color:#072121;
 }
 
-
 .name-and-work {
     display: flex;
     align-items: center;
@@ -71,7 +79,6 @@ p {
     width: 12.5rem;
     height: auto;
     border-radius: 50%;
-    
 }
 
 .main-name {
@@ -96,14 +103,15 @@ p {
     text-align: justify;
 }
 
-#projects-items li {
-    font-size: 1rem;
-    text-decoration: underline;
+.project-title h3 {
+    display: inline;
+    cursor: pointer;
+    font-family: "inconsolata";
 }
 
-#projects-items li:hover {
-    text-decoration: none;
-    cursor: pointer;
+.more-detail {
+    width: 100%;
+    margin-top: 3%;
 }
 
 #skills ul {
