@@ -27,35 +27,19 @@ p {
     list-style-type: none;
     font-size: 1.5rem;
     font-family: "poppins";
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 1rem;
     margin-right: 7.5%;
 }
 
 .navigation-items li {
-    border: 0.05rem solid #ecefc8;
     padding: 0 2%;
-    border-radius: .5rem;
     white-space: nowrap;
 }
 
 .navigation-items li a{
     text-decoration: none;
     color: #ecefc8;
-}
-
-
- .navigation-items li:hover {
-    border: 0.05rem solid #072121;
-    color: #072121;
-    background-color: #ecefc8;
-    padding: 0 2%;
-    border-radius: .5rem;
-    cursor: pointer;
-}
-
-.navigation-items li a:hover{
-    color:#072121;
 }
 
 .contact ul li a{
