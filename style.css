@@ -35,6 +35,7 @@ p {
     gap: 1rem;
     margin-right: 7.5%;
     gap: 5%;
+    height: 100%;
 }
 
 .navigation-items li {
@@ -59,6 +60,16 @@ p {
     width: 12.5rem;
     height: auto;
     border-radius: 50%;
+    -webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+
+#profile-photo:hover {
+    width: 15.5rem;
+    height: auto;
+    border-radius: 50%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 .main-name {
@@ -67,6 +78,7 @@ p {
     align-items: flex-start;
     font-family: "poppins";
     flex-wrap: wrap; 
+    margin-left: 3%;
 }
 
 .main-name h1 {
@@ -120,7 +132,7 @@ p {
 
 @media only screen and (max-width: 480px) {
     .navigation-items {
-    font-size: .70rem;
+    font-size: .80rem;
     margin-bottom: 10%;
     margin-right: 10%;
     align-content: center;
