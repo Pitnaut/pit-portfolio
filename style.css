@@ -26,25 +26,18 @@ p {
     font-size: 1rem;
 }
 
-a {
-    text-decoration: none;
-    color: #ecefc8;
-}
-
 .navigation-items {
     display: flex;
     list-style-type: none;
     font-size: 1.5rem;
     font-family: "poppins";
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 1rem;
     margin-right: 7.5%;
+    gap: 5%;
 }
 
 .navigation-items li {
-    border: 0.05rem solid #ecefc8;
-    padding: 0 2%;
-    border-radius: .5rem;
     white-space: nowrap;
 }
 
@@ -53,19 +46,6 @@ a {
     color: #ecefc8;
 }
 
-
- .navigation-items li:hover {
-    border: 0.05rem solid #072121;
-    color: #072121;
-    background-color: #ecefc8;
-    padding: 0 2%;
-    border-radius: .5rem;
-    cursor: pointer;
-}
-
-.navigation-items li a:hover{
-    color:#072121;
-}
 
 .name-and-work {
     display: flex;
@@ -145,6 +125,7 @@ a {
     margin-right: 10%;
     align-content: center;
     margin-top: 10%;
+    gap: 5%;
     }
 }
 
@@ -158,6 +139,7 @@ a {
     .navigation-items {
         font-size: 1.10rem;
         margin-right: 5%;
+        gap: 7%;
     }
 }
 
